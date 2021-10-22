@@ -1,9 +1,10 @@
 import React from 'react'
+import ListItem from '../../components/ListItem'
 
 export default function index() {
     return (
         <div>
-            <h1>This is home page</h1>
+            <ListItem/>
         </div>
     )
 }
